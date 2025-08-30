@@ -59,7 +59,7 @@ section h2 {
     margin-bottom: 20px;
 }
 
-/* --- 3. BOTTONE "ENTRA NELL'ASTA" PIÙ GRANDE E ACCATTIVANTE --- */
+/* --- 3. SEZIONE LOGIN --- */
 #login-overlay {
     position: fixed;
     top: 0; left: 0;
@@ -80,13 +80,34 @@ section h2 {
     box-shadow: 0 8px 24px rgba(0,0,0,0.5);
 }
 
+/* SEZIONE MODIFICATA: Box di input per il nome */
+#login-box input {
+    display: block;
+    width: 90%; /* Aumentiamo la larghezza */
+    margin: 25px auto; /* Aumentiamo lo spazio sopra e sotto */
+    padding: 16px; /* Aumentiamo lo spazio interno (altezza) */
+    border-radius: 8px;
+    border: 1px solid var(--bordo);
+    background-color: var(--sfondo-principale);
+    color: var(--testo-chiaro);
+    font-size: 1.3em; /* Aumentiamo la dimensione del testo */
+    text-align: center; /* Centriamo il testo inserito */
+    transition: all 0.2s ease-in-out;
+}
+
+#login-box input:focus {
+    outline: none;
+    border-color: var(--colore-primario);
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
 #btn-join {
     background: linear-gradient(145deg, #007bff, #0056b3);
     color: white;
     border: none;
     border-radius: 8px;
-    padding: 15px 30px; /* Più grande */
-    font-size: 1.2em;   /* Testo più grande */
+    padding: 15px 30px;
+    font-size: 1.2em;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
@@ -94,7 +115,7 @@ section h2 {
 }
 
 #btn-join:hover {
-    transform: scale(1.05); /* Effetto di ingrandimento */
+    transform: scale(1.05);
     box-shadow: 0 6px 20px rgba(0, 123, 255, 0.4);
 }
 
@@ -156,7 +177,7 @@ section h2 {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #dc3545; /* Rosso */
+    background-color: #dc3545;
     color: #fff;
     font-weight: bold;
     cursor: pointer;
@@ -198,11 +219,10 @@ section h2 {
 .ruolo-box {
     background-color: #0d1117;
     border-radius: 6px;
-    border-top: 4px solid; /* Bordo superiore colorato */
+    border-top: 4px solid;
     padding: 15px;
 }
 
-/* Assegnazione colori specifici per ruolo */
 .ruolo-box:nth-of-type(1) { border-color: var(--colore-portieri); }
 .ruolo-box:nth-of-type(2) { border-color: var(--colore-difensori); }
 .ruolo-box:nth-of-type(3) { border-color: var(--colore-centrocampisti); }
@@ -213,7 +233,6 @@ section h2 {
     padding-bottom: 10px;
 }
 
-/* Assegnazione colori specifici per i titoli */
 .ruolo-box:nth-of-type(1) h4 { color: var(--colore-portieri); }
 .ruolo-box:nth-of-type(2) h4 { color: var(--colore-difensori); }
 .ruolo-box:nth-of-type(3) h4 { color: var(--colore-centrocampisti); }
