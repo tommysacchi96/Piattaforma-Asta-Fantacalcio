@@ -1,11 +1,2902 @@
 [
-    { "nome": "LAUTARO MARTINEZ", "ruolo": "A", "squadra": "Inter" },
-    { "nome": "VICTOR OSIMHEN", "ruolo": "A", "squadra": "Napoli" },
-    { "nome": "CHARLES DE KETELAERE", "ruolo": "C", "squadra": "Atalanta" },
-    { "nome": "GLEISON BREMER", "ruolo": "D", "squadra": "Juventus" },
-    { "nome": "THEO HERNANDEZ", "ruolo": "D", "squadra": "Milan" },
-    { "nome": "MICHELE DI GREGORIO", "ruolo": "P", "squadra": "Juventus" },
-    { "nome": "PAULO DYBALA", "ruolo": "A", "squadra": "Roma" },
-    { "nome": "TEUN KOOPMEINERS", "ruolo": "C", "squadra": "Atalanta" },
-    { "nome": "ALESSANDRO BASTONI", "ruolo": "D", "squadra": "Inter" }
+  {
+    "nome": "CARNESECCHI MARCO",
+    "ruolo": "P",
+    "squadra": "Atalanta"
+  },
+  {
+    "nome": "ROSSI FRANCESCO",
+    "ruolo": "P",
+    "squadra": "Atalanta"
+  },
+  {
+    "nome": "SPORTIELLO MARCO",
+    "ruolo": "P",
+    "squadra": "Atalanta"
+  },
+  {
+    "nome": "AHANOR HONEST",
+    "ruolo": "D",
+    "squadra": "Atalanta"
+  },
+  {
+    "nome": "BELLANOVA RAOUL",
+    "ruolo": "D",
+    "squadra": "Atalanta"
+  },
+  {
+    "nome": "BERNASCONI LORENZO",
+    "ruolo": "D",
+    "squadra": "Atalanta"
+  },
+  {
+    "nome": "DJIMSITI BERAT",
+    "ruolo": "D",
+    "squadra": "Atalanta"
+  },
+  {
+    "nome": "HIEN ISAK",
+    "ruolo": "D",
+    "squadra": "Atalanta"
+  },
+  {
+    "nome": "KOLASINAC SEAD",
+    "ruolo": "D",
+    "squadra": "Atalanta"
+  },
+  {
+    "nome": "KOUSSOUNOU ODILON",
+    "ruolo": "D",
+    "squadra": "Atalanta"
+  },
+  {
+    "nome": "SCALVINI GIORGIO",
+    "ruolo": "D",
+    "squadra": "Atalanta"
+  },
+  {
+    "nome": "ZAPPACOSTA DAVIDE",
+    "ruolo": "D",
+    "squadra": "Atalanta"
+  },
+  {
+    "nome": "BRESCIANINI MARCO",
+    "ruolo": "C",
+    "squadra": "Atalanta"
+  },
+  {
+    "nome": "DE ROON MARTEN",
+    "ruolo": "C",
+    "squadra": "Atalanta"
+  },
+  {
+    "nome": "EDERSON DA SILVA",
+    "ruolo": "C",
+    "squadra": "Atalanta"
+  },
+  {
+    "nome": "MALDINI DANIEL",
+    "ruolo": "C",
+    "squadra": "Atalanta"
+  },
+  {
+    "nome": "PASALIC MARIO",
+    "ruolo": "C",
+    "squadra": "Atalanta"
+  },
+  {
+    "nome": "SAMARDZIC LAZAR",
+    "ruolo": "C",
+    "squadra": "Atalanta"
+  },
+  {
+    "nome": "SULEMANA IBRAHIM",
+    "ruolo": "C",
+    "squadra": "Atalanta"
+  },
+  {
+    "nome": "ZALEWSKI NICOLA",
+    "ruolo": "C",
+    "squadra": "Atalanta"
+  },
+  {
+    "nome": "DE KETELAERE CHARLES",
+    "ruolo": "A",
+    "squadra": "Atalanta"
+  },
+  {
+    "nome": "KRSTOVIC NIKOLA",
+    "ruolo": "A",
+    "squadra": "Atalanta"
+  },
+  {
+    "nome": "LOOKMAN ADEMOLA",
+    "ruolo": "A",
+    "squadra": "Atalanta"
+  },
+  {
+    "nome": "SCAMACCA GIANLUCA",
+    "ruolo": "A",
+    "squadra": "Atalanta"
+  },
+  {
+    "nome": "SULEMANA KAMALDEEN",
+    "ruolo": "A",
+    "squadra": "Atalanta"
+  },
+  {
+    "nome": "MOLLA MARCO",
+    "ruolo": "P",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "RAVAGLIA FEDERICO",
+    "ruolo": "P",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "SKORUPSKI LUKASZ",
+    "ruolo": "P",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "BONIFAZI KEVIN",
+    "ruolo": "D",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "CASALE NICOLO",
+    "ruolo": "D",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "CORAZZA TOMMASO",
+    "ruolo": "D",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "DE SILVESTRI LORENZO",
+    "ruolo": "D",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "HEGGEM TORBJORN",
+    "ruolo": "D",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "HOLM EMIL",
+    "ruolo": "D",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "ILIC MIHAJLO",
+    "ruolo": "D",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "IVANISEVIC JOVAN",
+    "ruolo": "D",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "LUCUMI JHON",
+    "ruolo": "D",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "LYKOGIANNIS CHARALAMPOS",
+    "ruolo": "D",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "MARKOVIC PETAR",
+    "ruolo": "D",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "MIRANDA JUAN",
+    "ruolo": "D",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "POSCH STEFAN",
+    "ruolo": "D",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "VITIK MARTIN",
+    "ruolo": "D",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "ZORTEA NADIR",
+    "ruolo": "D",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "BERNARDESCHI FEDERICO",
+    "ruolo": "C",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "BYAR NAIM",
+    "ruolo": "C",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "FABBIAN GIOVANNI",
+    "ruolo": "C",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "FERGUSON LEWIS",
+    "ruolo": "C",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "FREULER REMO",
+    "ruolo": "C",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "JAKU JORDI",
+    "ruolo": "C",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "KARLSSON KARL JESPER",
+    "ruolo": "C",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "MORO NIKOLA",
+    "ruolo": "C",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "ODGAARD JENS",
+    "ruolo": "C",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "ORSOLINI RICCARDO",
+    "ruolo": "C",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "POBEGA TOMMASO",
+    "ruolo": "C",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "VELILLAS AARON",
+    "ruolo": "C",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "CAMBIAGHI NICOLO",
+    "ruolo": "A",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "CASTRO SANTIAGO",
+    "ruolo": "A",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "DALLINGA THIJS",
+    "ruolo": "A",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "DOMINGUEZ NICOLAS",
+    "ruolo": "A",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "IMMOBILE CIRO",
+    "ruolo": "A",
+    "squadra": "Bologna"
+  },
+  {
+    "nome": "CAPRILE ELIA",
+    "ruolo": "P",
+    "squadra": "Cagliari"
+  },
+  {
+    "nome": "RADUNOVIC BORIS",
+    "ruolo": "P",
+    "squadra": "Cagliari"
+  },
+  {
+    "nome": "IDRISSI RIYAD",
+    "ruolo": "D",
+    "squadra": "Cagliari"
+  },
+  {
+    "nome": "LUPERTO SEBASTIANO",
+    "ruolo": "D",
+    "squadra": "Cagliari"
+  },
+  {
+    "nome": "MINA YERRY",
+    "ruolo": "D",
+    "squadra": "Cagliari"
+  },
+  {
+    "nome": "OBERT ADAM",
+    "ruolo": "D",
+    "squadra": "Cagliari"
+  },
+  {
+    "nome": "PALESTRA MARCO",
+    "ruolo": "D",
+    "squadra": "Cagliari"
+  },
+  {
+    "nome": "ZAPPA GABRIELE",
+    "ruolo": "D",
+    "squadra": "Cagliari"
+  },
+  {
+    "nome": "ADOPO MICHEL",
+    "ruolo": "C",
+    "squadra": "Cagliari"
+  },
+  {
+    "nome": "DEIOLA ALESSANDRO",
+    "ruolo": "C",
+    "squadra": "Cagliari"
+  },
+  {
+    "nome": "FELICI MATTIA",
+    "ruolo": "C",
+    "squadra": "Cagliari"
+  },
+  {
+    "nome": "FOLORUNSHO MICHAEL",
+    "ruolo": "C",
+    "squadra": "Cagliari"
+  },
+  {
+    "nome": "GAETANO GIANLUCA",
+    "ruolo": "C",
+    "squadra": "Cagliari"
+  },
+  {
+    "nome": "MAZZITELLI LUCA",
+    "ruolo": "C",
+    "squadra": "Cagliari"
+  },
+  {
+    "nome": "PRATI MATTEO",
+    "ruolo": "C",
+    "squadra": "Cagliari"
+  },
+  {
+    "nome": "ROG MARKO",
+    "ruolo": "C",
+    "squadra": "Cagliari"
+  },
+  {
+    "nome": "BORRELLI GENNARO",
+    "ruolo": "A",
+    "squadra": "Cagliari"
+  },
+  {
+    "nome": "ESPOSITO SEBASTIANO",
+    "ruolo": "A",
+    "squadra": "Cagliari"
+  },
+  {
+    "nome": "KILICSOY SEMIH",
+    "ruolo": "A",
+    "squadra": "Cagliari"
+  },
+  {
+    "nome": "LUVUMBO ZITO",
+    "ruolo": "A",
+    "squadra": "Cagliari"
+  },
+  {
+    "nome": "PAVOLETTI LEONARDO",
+    "ruolo": "A",
+    "squadra": "Cagliari"
+  },
+  {
+    "nome": "BUTEZ JEAN",
+    "ruolo": "P",
+    "squadra": "Como"
+  },
+  {
+    "nome": "MENKE HENRIQUE",
+    "ruolo": "P",
+    "squadra": "Como"
+  },
+  {
+    "nome": "VIGORITO MAURO",
+    "ruolo": "P",
+    "squadra": "Como"
+  },
+  {
+    "nome": "DOSSENA ALBERTO",
+    "ruolo": "D",
+    "squadra": "Como"
+  },
+  {
+    "nome": "GOLDANIGA EDOARDO",
+    "ruolo": "D",
+    "squadra": "Como"
+  },
+  {
+    "nome": "JACK FELLIPE",
+    "ruolo": "D",
+    "squadra": "Como"
+  },
+  {
+    "nome": "KEMPF MARC-OLIVER",
+    "ruolo": "D",
+    "squadra": "Como"
+  },
+  {
+    "nome": "MORENO ALBERTO",
+    "ruolo": "D",
+    "squadra": "Como"
+  },
+  {
+    "nome": "RAMON JACOBO",
+    "ruolo": "D",
+    "squadra": "Como"
+  },
+  {
+    "nome": "SERGI ROBERTO",
+    "ruolo": "D",
+    "squadra": "Como"
+  },
+  {
+    "nome": "SMOLCIC HRVOJE",
+    "ruolo": "D",
+    "squadra": "Como"
+  },
+  {
+    "nome": "VALLE ALEX",
+    "ruolo": "D",
+    "squadra": "Como"
+  },
+  {
+    "nome": "VAN DER BREMPT IGNACE",
+    "ruolo": "D",
+    "squadra": "Como"
+  },
+  {
+    "nome": "VOJVODA MERGIM",
+    "ruolo": "D",
+    "squadra": "Como"
+  },
+  {
+    "nome": "ALLI DELE",
+    "ruolo": "C",
+    "squadra": "Como"
+  },
+  {
+    "nome": "BATURINA MARTIN",
+    "ruolo": "C",
+    "squadra": "Como"
+  },
+  {
+    "nome": "CAQUERET MAXENCE",
+    "ruolo": "C",
+    "squadra": "Como"
+  },
+  {
+    "nome": "DA CUNHA LUCAS",
+    "ruolo": "C",
+    "squadra": "Como"
+  },
+  {
+    "nome": "ENGELHARDT YANNIK",
+    "ruolo": "C",
+    "squadra": "Como"
+  },
+  {
+    "nome": "KUHN NICOLAS",
+    "ruolo": "C",
+    "squadra": "Como"
+  },
+  {
+    "nome": "PAZ NICO",
+    "ruolo": "C",
+    "squadra": "Como"
+  },
+  {
+    "nome": "PERRONE MAXIMO",
+    "ruolo": "C",
+    "squadra": "Como"
+  },
+  {
+    "nome": "RAZI NAJ",
+    "ruolo": "C",
+    "squadra": "Como"
+  },
+  {
+    "nome": "ADDAI JAYDEN",
+    "ruolo": "A",
+    "squadra": "Como"
+  },
+  {
+    "nome": "AZON IVAN",
+    "ruolo": "A",
+    "squadra": "Como"
+  },
+  {
+    "nome": "CUTRONE PATRICK",
+    "ruolo": "A",
+    "squadra": "Como"
+  },
+  {
+    "nome": "DIAO ASSANE",
+    "ruolo": "A",
+    "squadra": "Como"
+  },
+  {
+    "nome": "DOUVIKAS TASOS",
+    "ruolo": "A",
+    "squadra": "Como"
+  },
+  {
+    "nome": "GABRIELLONI ALESSANDRO",
+    "ruolo": "A",
+    "squadra": "Como"
+  },
+  {
+    "nome": "MEZSARGS KRISTIANS",
+    "ruolo": "A",
+    "squadra": "Como"
+  },
+  {
+    "nome": "MORATA ALVARO",
+    "ruolo": "A",
+    "squadra": "Como"
+  },
+  {
+    "nome": "RODRIGUEZ JESUS",
+    "ruolo": "A",
+    "squadra": "Como"
+  },
+  {
+    "nome": "AUDERO EMIL",
+    "ruolo": "P",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "NAVA LAPO",
+    "ruolo": "P",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "SARO GIANLUCA",
+    "ruolo": "P",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "SILVESTRI MARCO",
+    "ruolo": "P",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "TOMMASI FRANCESCO",
+    "ruolo": "P",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "BARBIERI TOMMASO",
+    "ruolo": "D",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "BASCHIROTTO FEDERICO",
+    "ruolo": "D",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "BIANCHETTI MATTEO",
+    "ruolo": "D",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "CECCHERINI FEDERICO",
+    "ruolo": "D",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "FLORIANO MUSSOLINI",
+    "ruolo": "D",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "FOLINO FRANCESCO",
+    "ruolo": "D",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "MORETTI LORENZO",
+    "ruolo": "D",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "PEZZELLA GIUSEPPE",
+    "ruolo": "D",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "RAVANELLI LUCA",
+    "ruolo": "D",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "ROCCHETTI YURI",
+    "ruolo": "D",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "SERNICOLA LEONARDO",
+    "ruolo": "D",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "BONDO WARREN",
+    "ruolo": "C",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "BRAMBILLA ALESSIO",
+    "ruolo": "C",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "CASTAGNETTI MICHELE",
+    "ruolo": "C",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "COLLOCOLO MICHELE",
+    "ruolo": "C",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "GRASSI ALBERTO",
+    "ruolo": "C",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "JOHNSEN DENNIS",
+    "ruolo": "C",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "LORDKIPANIDZE DACHI",
+    "ruolo": "C",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "MILANESE TOMMASO",
+    "ruolo": "C",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "PAYERO MARTIN",
+    "ruolo": "C",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "PICKEL CHARLES",
+    "ruolo": "C",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "TERRACCIANO FILIPPO",
+    "ruolo": "C",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "VALOTI MATTIA",
+    "ruolo": "C",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "VANDEPUTTE JARI",
+    "ruolo": "C",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "VAZQUEZ FRANCO",
+    "ruolo": "C",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "ZERBIN ALESSIO",
+    "ruolo": "C",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "BONAZZOLI FEDERICO",
+    "ruolo": "A",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "DE LUCA MANUEL",
+    "ruolo": "A",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "NASTI MARCO",
+    "ruolo": "A",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "OKEREKE DAVID",
+    "ruolo": "A",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "SANABRIA ANTONIO",
+    "ruolo": "A",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "TSADJOUT FRANK",
+    "ruolo": "A",
+    "squadra": "Cremonese"
+  },
+  {
+    "nome": "DE GEA DAVID",
+    "ruolo": "P",
+    "squadra": "Fiorentina"
+  },
+  {
+    "nome": "MARTINELLI TOMMASO",
+    "ruolo": "P",
+    "squadra": "Fiorentina"
+  },
+  {
+    "nome": "COMUZZO PIETRO",
+    "ruolo": "D",
+    "squadra": "Fiorentina"
+  },
+  {
+    "nome": "DODO",
+    "ruolo": "D",
+    "squadra": "Fiorentina"
+  },
+  {
+    "nome": "FORTINI NICCOLO",
+    "ruolo": "D",
+    "squadra": "Fiorentina"
+  },
+  {
+    "nome": "GOSENS ROBIN",
+    "ruolo": "D",
+    "squadra": "Fiorentina"
+  },
+  {
+    "nome": "KOSPO EMAN",
+    "ruolo": "D",
+    "squadra": "Fiorentina"
+  },
+  {
+    "nome": "MARI PABLO",
+    "ruolo": "D",
+    "squadra": "Fiorentina"
+  },
+  {
+    "nome": "PARISI FABIANO",
+    "ruolo": "D",
+    "squadra": "Fiorentina"
+  },
+  {
+    "nome": "PONGRACIC MARIN",
+    "ruolo": "D",
+    "squadra": "Fiorentina"
+  },
+  {
+    "nome": "RANIERI LUCA",
+    "ruolo": "D",
+    "squadra": "Fiorentina"
+  },
+  {
+    "nome": "VITI MATTIA",
+    "ruolo": "D",
+    "squadra": "Fiorentina"
+  },
+  {
+    "nome": "FAGIOLI NICOLO",
+    "ruolo": "C",
+    "squadra": "Fiorentina"
+  },
+  {
+    "nome": "FAZZINI JACOPO",
+    "ruolo": "C",
+    "squadra": "Fiorentina"
+  },
+  {
+    "nome": "GUDMUNDSSON ALBERT",
+    "ruolo": "C",
+    "squadra": "Fiorentina"
+  },
+  {
+    "nome": "IKONE JONATHAN",
+    "ruolo": "C",
+    "squadra": "Fiorentina"
+  },
+  {
+    "nome": "MANDRAGORA ROLANDO",
+    "ruolo": "C",
+    "squadra": "Fiorentina"
+  },
+  {
+    "nome": "NDOUR CHER",
+    "ruolo": "C",
+    "squadra": "Fiorentina"
+  },
+  {
+    "nome": "RICHARDSON AMIR",
+    "ruolo": "C",
+    "squadra": "Fiorentina"
+  },
+  {
+    "nome": "SOHM SIMON",
+    "ruolo": "C",
+    "squadra": "Fiorentina"
+  },
+  {
+    "nome": "BELTRAN LUCAS",
+    "ruolo": "A",
+    "squadra": "Fiorentina"
+  },
+  {
+    "nome": "DZEKO EDIN",
+    "ruolo": "A",
+    "squadra": "Fiorentina"
+  },
+  {
+    "nome": "KEAN MOISE",
+    "ruolo": "A",
+    "squadra": "Fiorentina"
+  },
+  {
+    "nome": "PICCOLI ROBERTO",
+    "ruolo": "A",
+    "squadra": "Fiorentina"
+  },
+  {
+    "nome": "LEALI NICOLA",
+    "ruolo": "P",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "SIEGRIST BENJAMIN",
+    "ruolo": "P",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "SOMMARIVA DANIELE",
+    "ruolo": "P",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "STOLZ FRANZ",
+    "ruolo": "P",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "MARTIN AARON",
+    "ruolo": "D",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "MERCANDALLI ALESSANDRO",
+    "ruolo": "D",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "NORTON CUFFY BROOKE",
+    "ruolo": "D",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "OSTIGARD LEO",
+    "ruolo": "D",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "OTOA SEBASTIAN",
+    "ruolo": "D",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "SABELLI STEFANO",
+    "ruolo": "D",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "VASQUEZ JOHAN",
+    "ruolo": "D",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "VOGLIACCO ALESSANDRO",
+    "ruolo": "D",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "CUENCA HUGO",
+    "ruolo": "C",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "ELLERTSSON MIKAEL",
+    "ruolo": "C",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "FRENDRUP MORTEN",
+    "ruolo": "C",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "GRONBAEK ALBERT",
+    "ruolo": "C",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "JESUS ELTON",
+    "ruolo": "C",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "LAFONT GAEL",
+    "ruolo": "C",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "MALINOVSKY RUSLAN",
+    "ruolo": "C",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "MASINI PATRIZIO",
+    "ruolo": "C",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "MELEGONI FILIPPO",
+    "ruolo": "C",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "MESSIAS JUNIOR",
+    "ruolo": "C",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "STANCIU NICOLAE",
+    "ruolo": "C",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "THORSBY MORTEN",
+    "ruolo": "C",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "CARBONI VALENTIN",
+    "ruolo": "A",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "COLOMBO LORENZO",
+    "ruolo": "A",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "EKHATOR JEFF",
+    "ruolo": "A",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "EKUBAN CALEB",
+    "ruolo": "A",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "VENTURINO LORENZO",
+    "ruolo": "A",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "VITINHA",
+    "ruolo": "A",
+    "squadra": "Genoa"
+  },
+  {
+    "nome": "DI GENNARO RAFFAELE",
+    "ruolo": "P",
+    "squadra": "Inter"
+  },
+  {
+    "nome": "MARTINEZ JOSEP",
+    "ruolo": "P",
+    "squadra": "Inter"
+  },
+  {
+    "nome": "SOMMER YANN",
+    "ruolo": "P",
+    "squadra": "Inter"
+  },
+  {
+    "nome": "ACERBI FRANCESCO",
+    "ruolo": "D",
+    "squadra": "Inter"
+  },
+  {
+    "nome": "BASTONI ALESSANDRO",
+    "ruolo": "D",
+    "squadra": "Inter"
+  },
+  {
+    "nome": "BISSECK AUREL LUDGER",
+    "ruolo": "D",
+    "squadra": "Inter"
+  },
+  {
+    "nome": "CARLOS AUGUSTO",
+    "ruolo": "D",
+    "squadra": "Inter"
+  },
+  {
+    "nome": "DARMIAN MATTEO",
+    "ruolo": "D",
+    "squadra": "Inter"
+  },
+  {
+    "nome": "DE VRIJ STEFAN",
+    "ruolo": "D",
+    "squadra": "Inter"
+  },
+  {
+    "nome": "DIMARCO FEDERICO",
+    "ruolo": "D",
+    "squadra": "Inter"
+  },
+  {
+    "nome": "DUMFRIES DENZEL",
+    "ruolo": "D",
+    "squadra": "Inter"
+  },
+  {
+    "nome": "LUIS HENRIQUE",
+    "ruolo": "D",
+    "squadra": "Inter"
+  },
+  {
+    "nome": "PALACIOS TOMAS",
+    "ruolo": "D",
+    "squadra": "Inter"
+  },
+  {
+    "nome": "PAVARD BENJAMIN",
+    "ruolo": "D",
+    "squadra": "Inter"
+  },
+  {
+    "nome": "BARELLA NICOLO",
+    "ruolo": "C",
+    "squadra": "Inter"
+  },
+  {
+    "nome": "CALHANOGLU HADAM",
+    "ruolo": "C",
+    "squadra": "Inter"
+  },
+  {
+    "nome": "DIOUF ANDY",
+    "ruolo": "C",
+    "squadra": "Inter"
+  },
+  {
+    "nome": "FRATTESI DAVIDE",
+    "ruolo": "C",
+    "squadra": "Inter"
+  },
+  {
+    "nome": "MKHITARYAN",
+    "ruolo": "C",
+    "squadra": "Inter"
+  },
+  {
+    "nome": "SUCIC PETAR",
+    "ruolo": "C",
+    "squadra": "Inter"
+  },
+  {
+    "nome": "ZIELINSKI PIOTOR",
+    "ruolo": "C",
+    "squadra": "Inter"
+  },
+  {
+    "nome": "BONNY",
+    "ruolo": "A",
+    "squadra": "Inter"
+  },
+  {
+    "nome": "ESPOSITO FRANCESCO PIO",
+    "ruolo": "A",
+    "squadra": "Inter"
+  },
+  {
+    "nome": "MARTINEZ LAUTARO",
+    "ruolo": "A",
+    "squadra": "Inter"
+  },
+  {
+    "nome": "TAREMI MEHDI",
+    "ruolo": "A",
+    "squadra": "Inter"
+  },
+  {
+    "nome": "THURAM MARCUS",
+    "ruolo": "A",
+    "squadra": "Inter"
+  },
+  {
+    "nome": "DI GREGORIO MICHELE",
+    "ruolo": "P",
+    "squadra": "Juventus"
+  },
+  {
+    "nome": "PERIN MATTIA",
+    "ruolo": "P",
+    "squadra": "Juventus"
+  },
+  {
+    "nome": "PINSOGLIO CARLO",
+    "ruolo": "P",
+    "squadra": "Juventus"
+  },
+  {
+    "nome": "BREMER GLEISON",
+    "ruolo": "D",
+    "squadra": "Juventus"
+  },
+  {
+    "nome": "CABAL JUAN",
+    "ruolo": "D",
+    "squadra": "Juventus"
+  },
+  {
+    "nome": "CAMBIASO ANDREA",
+    "ruolo": "D",
+    "squadra": "Juventus"
+  },
+  {
+    "nome": "GATTI FEDERICO",
+    "ruolo": "D",
+    "squadra": "Juventus"
+  },
+  {
+    "nome": "JOAO MARIO",
+    "ruolo": "D",
+    "squadra": "Juventus"
+  },
+  {
+    "nome": "KALULU PIERRE",
+    "ruolo": "D",
+    "squadra": "Juventus"
+  },
+  {
+    "nome": "KELLY LLOYD",
+    "ruolo": "D",
+    "squadra": "Juventus"
+  },
+  {
+    "nome": "ROOHI JONAS",
+    "ruolo": "D",
+    "squadra": "Juventus"
+  },
+  {
+    "nome": "RUGANI DANIELE",
+    "ruolo": "D",
+    "squadra": "Juventus"
+  },
+  {
+    "nome": "SAVONA NICOLO",
+    "ruolo": "D",
+    "squadra": "Juventus"
+  },
+  {
+    "nome": "TIAGO DIALO",
+    "ruolo": "D",
+    "squadra": "Juventus"
+  },
+  {
+    "nome": "ADZIC VASILIJE",
+    "ruolo": "C",
+    "squadra": "Juventus"
+  },
+  {
+    "nome": "CONCEICAO FRANCISCO",
+    "ruolo": "C",
+    "squadra": "Juventus"
+  },
+  {
+    "nome": "DOUGLAS LUIZ",
+    "ruolo": "C",
+    "squadra": "Juventus"
+  },
+  {
+    "nome": "KOOPMEINERS TEUN",
+    "ruolo": "C",
+    "squadra": "Juventus"
+  },
+  {
+    "nome": "KOSTIC FILIP",
+    "ruolo": "C",
+    "squadra": "Juventus"
+  },
+  {
+    "nome": "LOCATELLI MANUEL",
+    "ruolo": "C",
+    "squadra": "Juventus"
+  },
+  {
+    "nome": "MCKENNIE WESTON",
+    "ruolo": "C",
+    "squadra": "Juventus"
+  },
+  {
+    "nome": "MIRETTI FABIO",
+    "ruolo": "C",
+    "squadra": "Juventus"
+  },
+  {
+    "nome": "THURAM KHEPHREN",
+    "ruolo": "C",
+    "squadra": "Juventus"
+  },
+  {
+    "nome": "GONZALEZ NICOLAS",
+    "ruolo": "A",
+    "squadra": "Juventus"
+  },
+  {
+    "nome": "JONATHAN DAVID",
+    "ruolo": "A",
+    "squadra": "Juventus"
+  },
+  {
+    "nome": "MILIK ARKADIUSZ",
+    "ruolo": "A",
+    "squadra": "Juventus"
+  },
+  {
+    "nome": "VLAHOVIC DUSAN",
+    "ruolo": "A",
+    "squadra": "Juventus"
+  },
+  {
+    "nome": "YILDIZ KENAN",
+    "ruolo": "A",
+    "squadra": "Juventus"
+  },
+  {
+    "nome": "FURLANETTO ALESSIO",
+    "ruolo": "P",
+    "squadra": "Lazio"
+  },
+  {
+    "nome": "MANDAS CHRISTOS",
+    "ruolo": "P",
+    "squadra": "Lazio"
+  },
+  {
+    "nome": "PROVEDEL IVAN",
+    "ruolo": "P",
+    "squadra": "Lazio"
+  },
+  {
+    "nome": "GIGOT SAMUEL",
+    "ruolo": "D",
+    "squadra": "Lazio"
+  },
+  {
+    "nome": "GILA MARIO FUENTES",
+    "ruolo": "D",
+    "squadra": "Lazio"
+  },
+  {
+    "nome": "HYSAJ ELSEID",
+    "ruolo": "D",
+    "squadra": "Lazio"
+  },
+  {
+    "nome": "LAZZARI MANUEL",
+    "ruolo": "D",
+    "squadra": "Lazio"
+  },
+  {
+    "nome": "MARUSIC ADAM",
+    "ruolo": "D",
+    "squadra": "Lazio"
+  },
+  {
+    "nome": "PATRIC",
+    "ruolo": "D",
+    "squadra": "Lazio"
+  },
+  {
+    "nome": "PELLEGRINI LUCA",
+    "ruolo": "D",
+    "squadra": "Lazio"
+  },
+  {
+    "nome": "PROVSTGAARD OLIVER",
+    "ruolo": "D",
+    "squadra": "Lazio"
+  },
+  {
+    "nome": "ROMAGNOLI ALESSIO",
+    "ruolo": "D",
+    "squadra": "Lazio"
+  },
+  {
+    "nome": "TAVARES NUNO",
+    "ruolo": "D",
+    "squadra": "Lazio"
+  },
+  {
+    "nome": "BASIC TOMA",
+    "ruolo": "C",
+    "squadra": "Lazio"
+  },
+  {
+    "nome": "BELAHYANE REDA",
+    "ruolo": "C",
+    "squadra": "Lazio"
+  },
+  {
+    "nome": "CATALDI DANILO",
+    "ruolo": "C",
+    "squadra": "Lazio"
+  },
+  {
+    "nome": "CRISTO MUNOZ",
+    "ruolo": "C",
+    "squadra": "Lazio"
+  },
+  {
+    "nome": "DELE BASHIRU FISAYO",
+    "ruolo": "C",
+    "squadra": "Lazio"
+  },
+  {
+    "nome": "GUENDOUZI MATTEO",
+    "ruolo": "C",
+    "squadra": "Lazio"
+  },
+  {
+    "nome": "ISAKSEN GUSTAV",
+    "ruolo": "C",
+    "squadra": "Lazio"
+  },
+  {
+    "nome": "LOMBARDI CRISTIANO",
+    "ruolo": "C",
+    "squadra": "Lazio"
+  },
+  {
+    "nome": "ROVELLA NICOLO",
+    "ruolo": "C",
+    "squadra": "Lazio"
+  },
+  {
+    "nome": "VECINO MATIAS",
+    "ruolo": "C",
+    "squadra": "Lazio"
+  },
+  {
+    "nome": "ZACCAGNI MATTIA",
+    "ruolo": "C",
+    "squadra": "Lazio"
+  },
+  {
+    "nome": "CANCELLIERI MATTEO",
+    "ruolo": "A",
+    "squadra": "Lazio"
+  },
+  {
+    "nome": "CASTELLANOS JOSE GIMENEZ",
+    "ruolo": "A",
+    "squadra": "Lazio"
+  },
+  {
+    "nome": "DIA BOULAYE",
+    "ruolo": "A",
+    "squadra": "Lazio"
+  },
+  {
+    "nome": "NOSLIN TIJJANI",
+    "ruolo": "A",
+    "squadra": "Lazio"
+  },
+  {
+    "nome": "PEDRO",
+    "ruolo": "A",
+    "squadra": "Lazio"
+  },
+  {
+    "nome": "FALCONE WLADIMIRO",
+    "ruolo": "P",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "FRUCHTL CHRISTIAN",
+    "ruolo": "P",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "SAMOOJA JASPER",
+    "ruolo": "P",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "ADDO VERNON",
+    "ruolo": "D",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "GALLO ANTONINO",
+    "ruolo": "D",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "GASPAR KIALONDA",
+    "ruolo": "D",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "GUILBERT FREDERIC",
+    "ruolo": "D",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "JEAN GABY",
+    "ruolo": "D",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "KOUASSI OWEN",
+    "ruolo": "D",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "NDABA CORRIE",
+    "ruolo": "D",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "PEREZ MATIAS",
+    "ruolo": "D",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "RASHIDI WILLIAM",
+    "ruolo": "D",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "SCOTT ELIJAH",
+    "ruolo": "D",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "TIAGO GABRIEL",
+    "ruolo": "D",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "VEIGA DANILO",
+    "ruolo": "D",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "BANDA LAMECK",
+    "ruolo": "C",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "BERISHA MEDON",
+    "ruolo": "C",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "COULIBALY LASSANA",
+    "ruolo": "C",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "GORTER OLAF",
+    "ruolo": "C",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "HELGASON JOHANN",
+    "ruolo": "C",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "KABA MOHAMED",
+    "ruolo": "C",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "MARCHWINSKI FLIP",
+    "ruolo": "C",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "MORENTE TETE",
+    "ruolo": "C",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "PIEROTTI SANTIAGO",
+    "ruolo": "C",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "PIERRET BALTHAZAR",
+    "ruolo": "C",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "RAFIA HAMZA",
+    "ruolo": "C",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "RAMADANI YLBER",
+    "ruolo": "C",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "SALA MARCO",
+    "ruolo": "C",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "SOTTIL RICCARDO",
+    "ruolo": "C",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "YILMAZ ENES",
+    "ruolo": "C",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "BURNETE RARES",
+    "ruolo": "A",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "CAMARDA FRANCESCO",
+    "ruolo": "A",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "KONAN NDRI",
+    "ruolo": "A",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "STULIC NIKOLA",
+    "ruolo": "A",
+    "squadra": "Lecce"
+  },
+  {
+    "nome": "MAIGNAN MIKE",
+    "ruolo": "P",
+    "squadra": "Milan"
+  },
+  {
+    "nome": "TERRACCIANO PIETRO",
+    "ruolo": "P",
+    "squadra": "Milan"
+  },
+  {
+    "nome": "TORRIANI LORENZO",
+    "ruolo": "P",
+    "squadra": "Milan"
+  },
+  {
+    "nome": "ATHEKAME ZACHARY",
+    "ruolo": "D",
+    "squadra": "Milan"
+  },
+  {
+    "nome": "BERTASAGHI DAVIDE",
+    "ruolo": "D",
+    "squadra": "Milan"
+  },
+  {
+    "nome": "ESTUPINAN PERVIS",
+    "ruolo": "D",
+    "squadra": "Milan"
+  },
+  {
+    "nome": "GABBIA MATTEO",
+    "ruolo": "D",
+    "squadra": "Milan"
+  },
+  {
+    "nome": "JIMENEZ ALEX",
+    "ruolo": "D",
+    "squadra": "Milan"
+  },
+  {
+    "nome": "PAVLOVIC STRAHINJA",
+    "ruolo": "D",
+    "squadra": "Milan"
+  },
+  {
+    "nome": "TOMORI FIKAYO",
+    "ruolo": "D",
+    "squadra": "Milan"
+  },
+  {
+    "nome": "ADLI YACINE",
+    "ruolo": "C",
+    "squadra": "Milan"
+  },
+  {
+    "nome": "CHUKWUEZE SAMUEL",
+    "ruolo": "C",
+    "squadra": "Milan"
+  },
+  {
+    "nome": "DE WINTER KONI",
+    "ruolo": "C",
+    "squadra": "Milan"
+  },
+  {
+    "nome": "FOFANA YOUSSOUF",
+    "ruolo": "C",
+    "squadra": "Milan"
+  },
+  {
+    "nome": "JASHARI ARDON",
+    "ruolo": "C",
+    "squadra": "Milan"
+  },
+  {
+    "nome": "LOFTUS CHEEK",
+    "ruolo": "C",
+    "squadra": "Milan"
+  },
+  {
+    "nome": "MODRIC LUKA",
+    "ruolo": "C",
+    "squadra": "Milan"
+  },
+  {
+    "nome": "MUSAH MILAN",
+    "ruolo": "C",
+    "squadra": "Milan"
+  },
+  {
+    "nome": "PULISIC CHRISTIAN MATE",
+    "ruolo": "C",
+    "squadra": "Milan"
+  },
+  {
+    "nome": "RICCI SAMUELE",
+    "ruolo": "C",
+    "squadra": "Milan"
+  },
+  {
+    "nome": "SAELEMAEKERS ALEXIS",
+    "ruolo": "C",
+    "squadra": "Milan"
+  },
+  {
+    "nome": "GIMENEZ SANTIAGO",
+    "ruolo": "A",
+    "squadra": "Milan"
+  },
+  {
+    "nome": "LEAO RAFAEL",
+    "ruolo": "A",
+    "squadra": "Milan"
+  },
+  {
+    "nome": "CONTINI NIKITA",
+    "ruolo": "P",
+    "squadra": "Napoli"
+  },
+  {
+    "nome": "MERET ALEX",
+    "ruolo": "P",
+    "squadra": "Napoli"
+  },
+  {
+    "nome": "BEUKAMA SAM",
+    "ruolo": "D",
+    "squadra": "Napoli"
+  },
+  {
+    "nome": "BUONGIORNO ALESSANDRO",
+    "ruolo": "D",
+    "squadra": "Napoli"
+  },
+  {
+    "nome": "DI LORENZO GIOVANNI",
+    "ruolo": "D",
+    "squadra": "Napoli"
+  },
+  {
+    "nome": "JUAN JESUS",
+    "ruolo": "D",
+    "squadra": "Napoli"
+  },
+  {
+    "nome": "MARIANUCCI LUCA",
+    "ruolo": "D",
+    "squadra": "Napoli"
+  },
+  {
+    "nome": "MAZZOCCHI PASQUALE",
+    "ruolo": "D",
+    "squadra": "Napoli"
+  },
+  {
+    "nome": "OBARETIN NOSA EDWARD",
+    "ruolo": "D",
+    "squadra": "Napoli"
+  },
+  {
+    "nome": "OLIVERA MATHIAS",
+    "ruolo": "D",
+    "squadra": "Napoli"
+  },
+  {
+    "nome": "RRAHMANI AMIR",
+    "ruolo": "D",
+    "squadra": "Napoli"
+  },
+  {
+    "nome": "SPINAZZOLA LEONARDO",
+    "ruolo": "D",
+    "squadra": "Napoli"
+  },
+  {
+    "nome": "ZANOLI ALESSANDRO",
+    "ruolo": "D",
+    "squadra": "Napoli"
+  },
+  {
+    "nome": "ANIC IVAN",
+    "ruolo": "C",
+    "squadra": "Napoli"
+  },
+  {
+    "nome": "DE BRUYNE KEVIN",
+    "ruolo": "C",
+    "squadra": "Napoli"
+  },
+  {
+    "nome": "GILMOUR BILLY",
+    "ruolo": "C",
+    "squadra": "Napoli"
+  },
+  {
+    "nome": "HASA LUIS",
+    "ruolo": "C",
+    "squadra": "Napoli"
+  },
+  {
+    "nome": "LOBOTKA STANISLAV",
+    "ruolo": "C",
+    "squadra": "Napoli"
+  },
+  {
+    "nome": "MCTOMINAY SCOTT",
+    "ruolo": "C",
+    "squadra": "Napoli"
+  },
+  {
+    "nome": "NERES DAVID",
+    "ruolo": "C",
+    "squadra": "Napoli"
+  },
+  {
+    "nome": "POLITANO MATTEO",
+    "ruolo": "C",
+    "squadra": "Napoli"
+  },
+  {
+    "nome": "ZAMBO ANGUISSA",
+    "ruolo": "C",
+    "squadra": "Napoli"
+  },
+  {
+    "nome": "AMBROSINI GIUSEPPE",
+    "ruolo": "A",
+    "squadra": "Napoli"
+  },
+  {
+    "nome": "CHEDDIRA WALID",
+    "ruolo": "A",
+    "squadra": "Napoli"
+  },
+  {
+    "nome": "LANG NOA",
+    "ruolo": "A",
+    "squadra": "Napoli"
+  },
+  {
+    "nome": "LUCCA LORENZO",
+    "ruolo": "A",
+    "squadra": "Napoli"
+  },
+  {
+    "nome": "LUKAKU ROMELU",
+    "ruolo": "A",
+    "squadra": "Napoli"
+  },
+  {
+    "nome": "POPOVIC MATIJA",
+    "ruolo": "A",
+    "squadra": "Napoli"
+  },
+  {
+    "nome": "MILINKOVIC SAVIC VANJA",
+    "ruolo": "P",
+    "squadra": "Parma"
+  },
+  {
+    "nome": "CORVI EDOARDO",
+    "ruolo": "P",
+    "squadra": "Parma"
+  },
+  {
+    "nome": "SUZUKI ZION",
+    "ruolo": "P",
+    "squadra": "Parma"
+  },
+  {
+    "nome": "BALOGH BOTOND",
+    "ruolo": "D",
+    "squadra": "Parma"
+  },
+  {
+    "nome": "CIRCATI ALESSANDRO",
+    "ruolo": "D",
+    "squadra": "Parma"
+  },
+  {
+    "nome": "DELPRATO ENRICO",
+    "ruolo": "D",
+    "squadra": "Parma"
+  },
+  {
+    "nome": "DI CHIARA GIANLUCA",
+    "ruolo": "D",
+    "squadra": "Parma"
+  },
+  {
+    "nome": "LOVIK MATHIAS",
+    "ruolo": "D",
+    "squadra": "Parma"
+  },
+  {
+    "nome": "NDIAYE ABDOULAYE",
+    "ruolo": "D",
+    "squadra": "Parma"
+  },
+  {
+    "nome": "TROILO MARIANO",
+    "ruolo": "D",
+    "squadra": "Parma"
+  },
+  {
+    "nome": "VALENTI LAUTARO",
+    "ruolo": "D",
+    "squadra": "Parma"
+  },
+  {
+    "nome": "VALERI EMANELE",
+    "ruolo": "D",
+    "squadra": "Parma"
+  },
+  {
+    "nome": "ALMQVIST PONTUS",
+    "ruolo": "C",
+    "squadra": "Parma"
+  },
+  {
+    "nome": "BERNABE ADRIAN",
+    "ruolo": "C",
+    "squadra": "Parma"
+  },
+  {
+    "nome": "DIOP DORO",
+    "ruolo": "C",
+    "squadra": "Parma"
+  },
+  {
+    "nome": "ESTEVEZ NAHUEL",
+    "ruolo": "C",
+    "squadra": "Parma"
+  },
+  {
+    "nome": "HERNANI",
+    "ruolo": "C",
+    "squadra": "Parma"
+  },
+  {
+    "nome": "KEITA MANDELA",
+    "ruolo": "C",
+    "squadra": "Parma"
+  },
+  {
+    "nome": "ONDREJKA JACOB",
+    "ruolo": "C",
+    "squadra": "Parma"
+  },
+  {
+    "nome": "ORDONEZ CHRISTIAN",
+    "ruolo": "C",
+    "squadra": "Parma"
+  },
+  {
+    "nome": "SORENSEN OLIVER",
+    "ruolo": "C",
+    "squadra": "Parma"
+  },
+  {
+    "nome": "BENEDYCZAK ADRIAN",
+    "ruolo": "A",
+    "squadra": "Parma"
+  },
+  {
+    "nome": "CHARPENTIER GABRIEL",
+    "ruolo": "A",
+    "squadra": "Parma"
+  },
+  {
+    "nome": "DJURIC MILAN",
+    "ruolo": "A",
+    "squadra": "Parma"
+  },
+  {
+    "nome": "JESSE BAL",
+    "ruolo": "A",
+    "squadra": "Parma"
+  },
+  {
+    "nome": "KOWALSKI MATEUSZ",
+    "ruolo": "A",
+    "squadra": "Parma"
+  },
+  {
+    "nome": "MOHAMED ANAS",
+    "ruolo": "A",
+    "squadra": "Parma"
+  },
+  {
+    "nome": "PELLEGRINO MATTEO",
+    "ruolo": "A",
+    "squadra": "Parma"
+  },
+  {
+    "nome": "LORIA LEONARDO",
+    "ruolo": "P",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "NICOLAS",
+    "ruolo": "P",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "SCUFFET SIMONE",
+    "ruolo": "P",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "SEMPER ADRIAN",
+    "ruolo": "P",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "VUKOVIC ANTE",
+    "ruolo": "P",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "ANGORI SIMONE",
+    "ruolo": "D",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "BERUATTO PIETRO",
+    "ruolo": "D",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "CALABRESI ARTURO",
+    "ruolo": "D",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "CANESTRELLI SIMONE",
+    "ruolo": "D",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "CARACCIOLO ANTONIO",
+    "ruolo": "D",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "COPPOLA FRANCESCO",
+    "ruolo": "D",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "DENOON DANIEL",
+    "ruolo": "D",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "ESTEVES TOMAS",
+    "ruolo": "D",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "LUSUARDI MATEUS",
+    "ruolo": "D",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "RUS ADRIAN",
+    "ruolo": "D",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "AEBISHER MICHEL",
+    "ruolo": "C",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "AKINSANMIRO EBENEZER",
+    "ruolo": "C",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "CUADRADO JAIME",
+    "ruolo": "C",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "HOJHOLT MALTHE",
+    "ruolo": "C",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "JEVSENAK ZAN",
+    "ruolo": "C",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "LERIS MEHDI",
+    "ruolo": "C",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "MARIN MARIUS",
+    "ruolo": "C",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "PICCININI GABRIELE",
+    "ruolo": "C",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "TOURE IDRISSA",
+    "ruolo": "C",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "TRAMONI MATTEO",
+    "ruolo": "C",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "VIGNATO EMANUEL",
+    "ruolo": "C",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "VURAL ISAK",
+    "ruolo": "C",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "ARENA ALESSANDRO",
+    "ruolo": "A",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "BONFANTI NICHOLAS",
+    "ruolo": "A",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "BUFFON LOUIS THOMAS",
+    "ruolo": "A",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "DUBICKAS EDGARAS",
+    "ruolo": "A",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "DURMUSH MERT",
+    "ruolo": "A",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "GIANI ELIA",
+    "ruolo": "A",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "LIND ALEXANDER",
+    "ruolo": "A",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "MBALA NZOLA",
+    "ruolo": "A",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "MEISTER HENRIK",
+    "ruolo": "A",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "MOREO STEFANO",
+    "ruolo": "A",
+    "squadra": "Pisa"
+  },
+  {
+    "nome": "GOLLINI PIERLUIGI",
+    "ruolo": "P",
+    "squadra": "Roma"
+  },
+  {
+    "nome": "SVILAR MILE",
+    "ruolo": "P",
+    "squadra": "Roma"
+  },
+  {
+    "nome": "VASQUEZ DEVIS",
+    "ruolo": "P",
+    "squadra": "Roma"
+  },
+  {
+    "nome": "ZELEZNY RADOSLAW",
+    "ruolo": "P",
+    "squadra": "Roma"
+  },
+  {
+    "nome": "ANGELINO",
+    "ruolo": "D",
+    "squadra": "Roma"
+  },
+  {
+    "nome": "CELIK MEHMET ZEKI",
+    "ruolo": "D",
+    "squadra": "Roma"
+  },
+  {
+    "nome": "GHILARDI DANIELE",
+    "ruolo": "D",
+    "squadra": "Roma"
+  },
+  {
+    "nome": "HERMOSO MARIO",
+    "ruolo": "D",
+    "squadra": "Roma"
+  },
+  {
+    "nome": "MANCINI GIANLUCA",
+    "ruolo": "D",
+    "squadra": "Roma"
+  },
+  {
+    "nome": "N'DIKA OBITE EVAN",
+    "ruolo": "D",
+    "squadra": "Roma"
+  },
+  {
+    "nome": "RENSCH DEVYNE",
+    "ruolo": "D",
+    "squadra": "Roma"
+  },
+  {
+    "nome": "SALAH EDDINE",
+    "ruolo": "D",
+    "squadra": "Roma"
+  },
+  {
+    "nome": "WESLEY",
+    "ruolo": "D",
+    "squadra": "Roma"
+  },
+  {
+    "nome": "BALDANZI TOMMASO",
+    "ruolo": "C",
+    "squadra": "Roma"
+  },
+  {
+    "nome": "CRISTANTE BRYAN",
+    "ruolo": "C",
+    "squadra": "Roma"
+  },
+  {
+    "nome": "EL AYNAOUI NEIL",
+    "ruolo": "C",
+    "squadra": "Roma"
+  },
+  {
+    "nome": "KONE KOUADIO",
+    "ruolo": "C",
+    "squadra": "Roma"
+  },
+  {
+    "nome": "PELLEGRINI LORENZO",
+    "ruolo": "C",
+    "squadra": "Roma"
+  },
+  {
+    "nome": "PISILLI NICCOLO",
+    "ruolo": "C",
+    "squadra": "Roma"
+  },
+  {
+    "nome": "DOVBYK ARTEM",
+    "ruolo": "A",
+    "squadra": "Roma"
+  },
+  {
+    "nome": "DYBALA PAULO",
+    "ruolo": "A",
+    "squadra": "Roma"
+  },
+  {
+    "nome": "EL SHAARAWY STEPHAN",
+    "ruolo": "A",
+    "squadra": "Roma"
+  },
+  {
+    "nome": "FERGUSON JOE",
+    "ruolo": "A",
+    "squadra": "Roma"
+  },
+  {
+    "nome": "SOULE MATIAS",
+    "ruolo": "A",
+    "squadra": "Roma"
+  },
+  {
+    "nome": "MURIC ARIJANET",
+    "ruolo": "P",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "RUSSO ALESSANDRO",
+    "ruolo": "P",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "SATALINO GIACOMO",
+    "ruolo": "P",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "TURATI STEFANO",
+    "ruolo": "P",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "ZACCHI GIOELE",
+    "ruolo": "P",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "CANDE FALI",
+    "ruolo": "D",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "DOIG JOSH",
+    "ruolo": "D",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "IZDES JAY",
+    "ruolo": "D",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "MISSORI FILIPPO",
+    "ruolo": "D",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "MUHAREMOVIC TARIK",
+    "ruolo": "D",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "ODENTHAL CAS",
+    "ruolo": "D",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "PAZ YEFERSON",
+    "ruolo": "D",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "PIERAGNOLO EDOARDO",
+    "ruolo": "D",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "ROMAGNA FILIPPO",
+    "ruolo": "D",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "TRESSOLDI RUAN",
+    "ruolo": "D",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "WALUKIEWICZ SEBASTIAN",
+    "ruolo": "D",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "BOLOCA DANIEL",
+    "ruolo": "C",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "CALIGARA FABRIZIO",
+    "ruolo": "C",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "FADERA ALIEU",
+    "ruolo": "C",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "GHION ANDREA",
+    "ruolo": "C",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "IANNONI EDOARDO",
+    "ruolo": "C",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "KONE ISMAEL",
+    "ruolo": "C",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "LIPANI LUCA",
+    "ruolo": "C",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "PIERINI NICHOLAS",
+    "ruolo": "C",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "THORSTVEDT KRISTIAN",
+    "ruolo": "C",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "VOLPATO CRISTIAN",
+    "ruolo": "C",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "ALVAREZ AGUSTIN MARTINEZ",
+    "ruolo": "A",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "BERARDI DOMENICO",
+    "ruolo": "A",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "LAURIENTE ARMAND",
+    "ruolo": "A",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "MORO LUCA",
+    "ruolo": "A",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "PINAMONTI ANDREA",
+    "ruolo": "A",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "SKJELLERUP LAURS",
+    "ruolo": "A",
+    "squadra": "Sassuolo"
+  },
+  {
+    "nome": "ISRAEL FRANCO",
+    "ruolo": "P",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "PALEARI ALBERTO",
+    "ruolo": "P",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "PLAIA FRANCESCO",
+    "ruolo": "P",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "POPA MIHAI",
+    "ruolo": "P",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "BIRAGHI CRISTIANO",
+    "ruolo": "D",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "COCO SAUL",
+    "ruolo": "D",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "DEMBELE ALI",
+    "ruolo": "D",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "ISMAJLI ARDIAN",
+    "ruolo": "D",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "MARIPAN GIULLERMO",
+    "ruolo": "D",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "MASINA ADAM",
+    "ruolo": "D",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "PEDERSEN MARCUS",
+    "ruolo": "D",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "SAZANOV SABA",
+    "ruolo": "D",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "SCHUURS PERR",
+    "ruolo": "D",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "ANJORIN TINO",
+    "ruolo": "C",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "ASLLANI KRISTJAN",
+    "ruolo": "C",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "BRZYSK IGOR",
+    "ruolo": "C",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "CASADEI CESARE",
+    "ruolo": "C",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "GINEITIS GVIDAS",
+    "ruolo": "C",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "ILIC IVAN",
+    "ruolo": "C",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "ILKHAN EMIRHAN",
+    "ruolo": "C",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "LAZARO VALENTINO",
+    "ruolo": "C",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "NGONGE CYRIL",
+    "ruolo": "C",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "TAMEZE ADRIEN",
+    "ruolo": "C",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "VLASIC NIKOLA",
+    "ruolo": "C",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "ABOUKHLAL ZAKARIA",
+    "ruolo": "A",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "ADAMS CHE",
+    "ruolo": "A",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "FRANZONI NICOLO",
+    "ruolo": "A",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "NJIE ALIEU",
+    "ruolo": "A",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "SIMEONE GIOVANNI",
+    "ruolo": "A",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "SOW ASANE",
+    "ruolo": "A",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "ZAPATA DUVAN",
+    "ruolo": "A",
+    "squadra": "Torino"
+  },
+  {
+    "nome": "MALUSA JOEL",
+    "ruolo": "P",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "MOSCA FEDERICO",
+    "ruolo": "P",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "NUNZIANTE ALESSANDRO",
+    "ruolo": "P",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "OKOYE MADUKA",
+    "ruolo": "P",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "PADELLI DANIELE",
+    "ruolo": "P",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "SAVA RAZVAN",
+    "ruolo": "P",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "BERTOLA NICOLO",
+    "ruolo": "D",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "EHIZIBUE KINGSLEY",
+    "ruolo": "D",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "GOGLICHIDZE SABA",
+    "ruolo": "D",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "GUESSAND AXEL",
+    "ruolo": "D",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "KABASELE CHRISTIAN",
+    "ruolo": "D",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "KAMARA HASSANE",
+    "ruolo": "D",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "KRISTENSEN THOMAS",
+    "ruolo": "D",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "PALMA MATTEO",
+    "ruolo": "D",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "SOLET OUMAR",
+    "ruolo": "D",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "ZEMURA JORDAN",
+    "ruolo": "D",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "ATTA ARTHUR",
+    "ruolo": "C",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "EKKELENKAMP JURGEN",
+    "ruolo": "C",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "KARLSTROM JESPER",
+    "ruolo": "C",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "LOVRIC SANDI",
+    "ruolo": "C",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "MILLER LENNON",
+    "ruolo": "C",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "PIOTROWSKI JAKUB",
+    "ruolo": "C",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "RUI MODESTO",
+    "ruolo": "C",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "ZARRAGA OIER",
+    "ruolo": "C",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "BAYO VAKOUN ISSOUF",
+    "ruolo": "A",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "BRAVO IKER",
+    "ruolo": "A",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "BRENNER SOUZA DA SILVA",
+    "ruolo": "A",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "BUSKA ADAM",
+    "ruolo": "A",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "DAVIS KEINAN",
+    "ruolo": "A",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "PIZARRO DAMIAN",
+    "ruolo": "A",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "SANCHEZ ALEXIS",
+    "ruolo": "A",
+    "squadra": "Udinese"
+  },
+  {
+    "nome": "MONTIPO LORENZO",
+    "ruolo": "P",
+    "squadra": "Verona"
+  },
+  {
+    "nome": "PERILLI SIMONE",
+    "ruolo": "P",
+    "squadra": "Verona"
+  },
+  {
+    "nome": "BELGHALI RAFIK",
+    "ruolo": "D",
+    "squadra": "Verona"
+  },
+  {
+    "nome": "BRADARIC DOMAGOJ",
+    "ruolo": "D",
+    "squadra": "Verona"
+  },
+  {
+    "nome": "CHAM FALLOU",
+    "ruolo": "D",
+    "squadra": "Verona"
+  },
+  {
+    "nome": "EBOSSE ENZO",
+    "ruolo": "D",
+    "squadra": "Verona"
+  },
+  {
+    "nome": "FRESE MARTIN",
+    "ruolo": "D",
+    "squadra": "Verona"
+  },
+  {
+    "nome": "NELSON ZABA",
+    "ruolo": "D",
+    "squadra": "Verona"
+  },
+  {
+    "nome": "NELSSON VICTOR",
+    "ruolo": "D",
+    "squadra": "Verona"
+  },
+  {
+    "nome": "NUNEZ UNAI",
+    "ruolo": "D",
+    "squadra": "Verona"
+  },
+  {
+    "nome": "OYEGOKE DANIEL",
+    "ruolo": "D",
+    "squadra": "Verona"
+  },
+  {
+    "nome": "SLOTSAGE TOBIAS",
+    "ruolo": "D",
+    "squadra": "Verona"
+  },
+  {
+    "nome": "VALENTINI NICOLAS",
+    "ruolo": "D",
+    "squadra": "Verona"
+  },
+  {
+    "nome": "BERNEDE ANTOINE",
+    "ruolo": "C",
+    "squadra": "Verona"
+  },
+  {
+    "nome": "HARROUI ABDOU",
+    "ruolo": "C",
+    "squadra": "Verona"
+  },
+  {
+    "nome": "KASTANOS GRIGORIS",
+    "ruolo": "C",
+    "squadra": "Verona"
+  },
+  {
+    "nome": "LIVRAMENTO TINO",
+    "ruolo": "C",
+    "squadra": "Verona"
+  },
+  {
+    "nome": "NIASSE CHEIKH",
+    "ruolo": "C",
+    "squadra": "Verona"
+  },
+  {
+    "nome": "SANTIAGO PEREZ",
+    "ruolo": "C",
+    "squadra": "Verona"
+  },
+  {
+    "nome": "SERDAR SUAT",
+    "ruolo": "C",
+    "squadra": "Verona"
+  },
+  {
+    "nome": "SUSLOV TOMAS",
+    "ruolo": "C",
+    "squadra": "Verona"
+  },
+  {
+    "nome": "CISSE ALPHADJO",
+    "ruolo": "A",
+    "squadra": "Verona"
+  },
+  {
+    "nome": "GIOVANE SANTANA",
+    "ruolo": "A",
+    "squadra": "Verona"
+  },
+  {
+    "nome": "MOSQUERA DANIEL",
+    "ruolo": "A",
+    "squadra": "Verona"
+  },
+  {
+    "nome": "SARR AMIN",
+    "ruolo": "A",
+    "squadra": "Verona"
+  }
 ]
