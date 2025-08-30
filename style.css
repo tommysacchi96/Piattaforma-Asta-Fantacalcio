@@ -159,8 +159,7 @@ section h2 {
 }
 
 #btn-offerta {
-    padding: 12px 28px; /* Più padding per renderlo più grande */
-    font-size: 1.1em;   /* Testo leggermente più grande */
+    padding: 10px 20px;
     font-weight: bold;
     border: none;
     border-radius: 5px;
