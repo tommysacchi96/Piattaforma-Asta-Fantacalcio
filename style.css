@@ -1,0 +1,168 @@
+/* --- Stili Generali --- */
+body {
+    font-family: sans-serif;
+    background-color: #1a1a1a; /* Sfondo scuro */
+    color: #f0f0f0; /* Testo chiaro */
+    margin: 0;
+    padding: 20px;
+}
+
+/* --- Intestazione --- */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #00aaff;
+    padding-bottom: 10px;
+}
+
+/* --- Layout Principale --- */
+main {
+    display: flex;
+    flex-wrap: wrap; /* Permette di andare a capo su schermi piccoli */
+    gap: 20px; /* Spazio tra le sezioni */
+}
+
+/* --- Stile comune per le sezioni --- */
+section {
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    flex: 1; /* Le sezioni si espandono per riempire lo spazio */
+}
+
+section h2 {
+    margin-top: 0;
+    color: #00aaff;
+}
+
+/* --- Sezione Asta Corrente (più grande) --- */
+#asta-corrente {
+    flex-basis: 100%; /* Occupa tutta la larghezza all'inizio */
+    order: 1; /* Appare per prima */
+}
+
+#info-giocatore {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#offerta-corrente, #timer {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 15px 0;
+}
+
+#valore-offerta, #ultimo-offerente, #tempo {
+    color: #ffcc00; /* Giallo per evidenziare */
+    font-weight: bold;
+}
+
+#pannello-offerta {
+    display: flex;
+    gap: 10px;
+}
+
+#input-offerta {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #f0f0f0;
+    font-size: 1em;
+}
+
+#btn-offerta {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00aaff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#btn-offerta:hover {
+    background-color: #0088cc;
+}
+
+/* --- Sezione La Mia Squadra e Partecipanti --- */
+#la-tua-squadra {
+    order: 2;
+}
+
+#partecipanti {
+    order: 3;
+}
+
+#rosa-personale {
+    list-style-type: none;
+    padding: 0;
+}
+
+#tabella-lega {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tabella-lega th, #tabella-lega td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+/* --- Adattabilità per schermi più grandi (es. computer) --- */
+@media (min-width: 1000px) {
+    #asta-corrente {
+        flex-basis: 40%; /* Occupa meno spazio, lasciandolo alle altre sezioni */
+    }
+}
+
+#btn-assegna {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d93025; /* Rosso Google */
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#btn-assegna:hover {
+    background-color: #a52714;
+}
+/* Stili per il Modal di Login */
+#login-overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#login-box {
+    background-color: #2a2a2a;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+#login-box input {
+    display: block;
+    width: 80%;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #f0f0f0;
+    font-size: 1em;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asta Fantacalcio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login-overlay">
+        <div id="login-box">
+            <h2>Benvenuto all'Asta!</h2>
+            <p>Inserisci il tuo nome per partecipare:</p>
+            <input type="text" id="input-nome" placeholder="Il tuo nome">
+            <button id="btn-join">Entra nell'Asta</button>
+        </div>
+    </div>
+
+    <header>
+        <h1>Asta Fantacalcio Live</h1>
+        <p>Ciao, <strong id="nome-utente"></strong>! Crediti: <strong id="crediti-rimasti">500</strong></p>
+    </header>
+
+    <main>
+        <section id="asta-corrente">
+            <h2>Giocatore all'asta</h2>
+            <div id="info-giocatore">
+                <p id="nome-giocatore">In attesa dell'inizio...</p>
+                <p id="squadra-giocatore"></p>
+            </div>
+            <div id="offerta-corrente">
+                <p>Offerta attuale: <span id="valore-offerta">0</span> crediti</p>
+                <p>Fatta da: <span id="ultimo-offerente">-</span></p>
+            </div>
+            <div id="pannello-offerta">
+                <input type="number" id="input-offerta" placeholder="La tua offerta">
+                <button id="btn-offerta">Offri</button>
+                <button id="btn-assegna">Assegna Giocatore</button>
+            </div>
+        </section>
+
+        <section id="la-tua-squadra">
+            <h2>La mia Rosa</h2>
+            <ul id="rosa-personale"></ul>
+        </section>
+
+        <section id="partecipanti">
+            <h2>Situazione Lega</h2>
+            <table id="tabella-lega">
+                <thead>
+                    <tr><th>Nome</th><th>Crediti</th><th>Giocatori</th></tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+    </main>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

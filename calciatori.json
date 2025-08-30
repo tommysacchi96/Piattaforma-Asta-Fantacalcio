@@ -1,0 +1,11 @@
+[
+    { "nome": "LAUTARO MARTINEZ", "ruolo": "A", "squadra": "Inter" },
+    { "nome": "VICTOR OSIMHEN", "ruolo": "A", "squadra": "Napoli" },
+    { "nome": "CHARLES DE KETELAERE", "ruolo": "C", "squadra": "Atalanta" },
+    { "nome": "GLEISON BREMER", "ruolo": "D", "squadra": "Juventus" },
+    { "nome": "THEO HERNANDEZ", "ruolo": "D", "squadra": "Milan" },
+    { "nome": "MICHELE DI GREGORIO", "ruolo": "P", "squadra": "Juventus" },
+    { "nome": "PAULO DYBALA", "ruolo": "A", "squadra": "Roma" },
+    { "nome": "TEUN KOOPMEINERS", "ruolo": "C", "squadra": "Atalanta" },
+    { "nome": "ALESSANDRO BASTONI", "ruolo": "D", "squadra": "Inter" }
+]
