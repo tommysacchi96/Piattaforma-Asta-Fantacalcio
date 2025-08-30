@@ -1,45 +1,108 @@
-/* --- Stili Generali --- */
+/* --- 1. IMPOSTAZIONI GLOBALI E NUOVA PALETTE COLORI --- */
+:root {
+    --colore-primario: #007bff; /* Un blu acceso ma elegante */
+    --colore-primario-hover: #0056b3;
+    --sfondo-principale: #0d1117; /* Un blu scurissimo, quasi nero (stile GitHub Dark) */
+    --sfondo-sezioni: #161b22; /* Un grigio-blu scuro per le sezioni */
+    --testo-chiaro: #e6edf3;
+    --testo-secondario: #8b949e;
+    --bordo: #30363d;
+    --giallo-offerta: #f1e05a;
+    
+    /* Colori per i ruoli */
+    --colore-portieri: #28a745;  /* Verde */
+    --colore-difensori: #17a2b8; /* Ciano/Blu chiaro */
+    --colore-centrocampisti: #ffc107; /* Giallo/Oro */
+    --colore-attaccanti: #dc3545;  /* Rosso */
+}
+
 body {
-    font-family: sans-serif;
-    background-color: #1a1a1a; /* Sfondo scuro */
-    color: #f0f0f0; /* Testo chiaro */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--sfondo-principale);
+    color: var(--testo-chiaro);
     margin: 0;
     padding: 20px;
 }
 
-/* --- Intestazione --- */
+/* --- 2. HEADER E LAYOUT PRINCIPALE --- */
 header {
     text-align: center;
     margin-bottom: 20px;
-    border-bottom: 2px solid #00aaff;
+    border-bottom: 1px solid var(--bordo);
     padding-bottom: 10px;
 }
 
-/* --- Layout Principale --- */
-main {
-    display: flex;
-    flex-wrap: wrap; /* Permette di andare a capo su schermi piccoli */
-    gap: 20px; /* Spazio tra le sezioni */
+header h1 {
+    color: var(--colore-primario);
 }
 
-/* --- Stile comune per le sezioni --- */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 section {
-    background-color: #2a2a2a;
+    background-color: var(--sfondo-sezioni);
+    border: 1px solid var(--bordo);
     border-radius: 8px;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    flex: 1; /* Le sezioni si espandono per riempire lo spazio */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    flex: 1;
 }
 
 section h2 {
     margin-top: 0;
-    color: #00aaff;
+    color: var(--testo-chiaro);
+    border-bottom: 1px solid var(--bordo);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-/* --- Sezione Asta Corrente (più grande) --- */
+/* --- 3. BOTTONE "ENTRA NELL'ASTA" PIÙ GRANDE E ACCATTIVANTE --- */
+#login-overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(13, 17, 23, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#login-box {
+    background-color: var(--sfondo-sezioni);
+    padding: 40px;
+    border-radius: 8px;
+    border: 1px solid var(--bordo);
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+}
+
+#btn-join {
+    background: linear-gradient(145deg, #007bff, #0056b3);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 30px; /* Più grande */
+    font-size: 1.2em;   /* Testo più grande */
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.2);
+}
+
+#btn-join:hover {
+    transform: scale(1.05); /* Effetto di ingrandimento */
+    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.4);
+}
+
+
+/* --- 4. SEZIONI SPECIFICHE --- */
 #asta-corrente {
-    flex-basis: 100%; /* Occupa tutta la larghezza all'inizio */
-    order: 1; /* Appare per prima */
+    flex-basis: 100%;
+    order: 1;
 }
 
 #info-giocatore {
@@ -54,8 +117,8 @@ section h2 {
     margin: 15px 0;
 }
 
-#valore-offerta, #ultimo-offerente, #tempo {
-    color: #ffcc00; /* Giallo per evidenziare */
+#valore-offerta, #ultimo-offerente {
+    color: var(--giallo-offerta);
     font-weight: bold;
 }
 
@@ -68,9 +131,9 @@ section h2 {
     flex-grow: 1;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid #444;
-    background-color: #333;
-    color: #f0f0f0;
+    border: 1px solid var(--bordo);
+    background-color: var(--sfondo-principale);
+    color: var(--testo-chiaro);
     font-size: 1em;
 }
 
@@ -78,7 +141,7 @@ section h2 {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #00aaff;
+    background-color: var(--colore-primario);
     color: #fff;
     font-weight: bold;
     cursor: pointer;
@@ -86,21 +149,26 @@ section h2 {
 }
 
 #btn-offerta:hover {
-    background-color: #0088cc;
+    background-color: var(--colore-primario-hover);
 }
 
-/* --- Sezione La Mia Squadra e Partecipanti --- */
-#la-tua-squadra {
-    order: 2;
+#btn-assegna {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc3545; /* Rosso */
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#btn-assegna:hover {
+    background-color: #a71d2a;
 }
 
 #partecipanti {
-    order: 3;
-}
-
-#rosa-personale {
-    list-style-type: none;
-    padding: 0;
+    order: 2;
 }
 
 #tabella-lega {
@@ -109,97 +177,64 @@ section h2 {
 }
 
 #tabella-lega th, #tabella-lega td {
-    padding: 8px;
-    text-align: left;
-    border-bottom: 1px solid #444;
-}
-
-/* --- Adattabilità per schermi più grandi (es. computer) --- */
-@media (min-width: 1000px) {
-    #asta-corrente {
-        flex-basis: 40%; /* Occupa meno spazio, lasciandolo alle altre sezioni */
-    }
-}
-
-#btn-assegna {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #d93025; /* Rosso Google */
-    color: #fff;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.2s;
-}
-
-#btn-assegna:hover {
-    background-color: #a52714;
-}
-/* Stili per il Modal di Login */
-#login-overlay {
-    position: fixed;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-}
-
-#login-box {
-    background-color: #2a2a2a;
-    padding: 30px;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
-}
-
-#login-box input {
-    display: block;
-    width: 80%;
-    margin: 15px auto;
     padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #444;
-    background-color: #333;
-    color: #f0f0f0;
-    font-size: 1em;
+    text-align: left;
+    border-bottom: 1px solid var(--bordo);
 }
 
-/* --- Nuovi Stili per La Mia Rosa --- */
+/* --- 5. SEZIONE "LA MIA ROSA" CON COLORI PER RUOLO --- */
 #la-tua-squadra {
-    flex-basis: 100%; /* Occupa tutta la larghezza */
+    flex-basis: 100%;
     margin-top: 20px;
+    order: 3;
 }
 
 .rosa-container {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
-    justify-content: space-between;
 }
 
 .ruolo-box {
-    background-color: #333;
+    background-color: #0d1117;
     border-radius: 6px;
+    border-top: 4px solid; /* Bordo superiore colorato */
     padding: 15px;
-    flex: 1; /* I riquadri si espandono per riempire lo spazio */
-    min-width: 200px; /* Larghezza minima per evitare che siano troppo stretti */
 }
+
+/* Assegnazione colori specifici per ruolo */
+.ruolo-box:nth-of-type(1) { border-color: var(--colore-portieri); }
+.ruolo-box:nth-of-type(2) { border-color: var(--colore-difensori); }
+.ruolo-box:nth-of-type(3) { border-color: var(--colore-centrocampisti); }
+.ruolo-box:nth-of-type(4) { border-color: var(--colore-attaccanti); }
 
 .ruolo-box h4 {
     margin-top: 0;
-    color: #00aaff;
-    border-bottom: 1px solid #555;
     padding-bottom: 10px;
 }
+
+/* Assegnazione colori specifici per i titoli */
+.ruolo-box:nth-of-type(1) h4 { color: var(--colore-portieri); }
+.ruolo-box:nth-of-type(2) h4 { color: var(--colore-difensori); }
+.ruolo-box:nth-of-type(3) h4 { color: var(--colore-centrocampisti); }
+.ruolo-box:nth-of-type(4) h4 { color: var(--colore-attaccanti); }
+
 
 .ruolo-box ul {
     list-style-type: none;
     padding: 0;
     font-size: 0.9em;
 }
+
 .ruolo-box ul li {
     margin-bottom: 5px;
+    color: var(--testo-secondario);
+}
+
+
+/* Adattabilità per schermi più grandi */
+@media (min-width: 1000px) {
+    #asta-corrente {
+        flex-basis: 40%;
+    }
 }
