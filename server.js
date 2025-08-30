@@ -1,4 +1,4 @@
-// server.js
+// server.js (versione con gestione riconnessioni)
 const express = require('express');
 const http = require('http');
 const socketIo = require('socket.io');
@@ -8,7 +8,6 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server);
 
-// Servi i file statici (html, css, js client)
 app.use(express.static(__dirname));
 
 let calciatori = [];
@@ -19,7 +18,6 @@ try {
     console.error("Errore nel leggere calciatori.json:", err);
 }
 
-// Stato centrale dell'asta
 const astaState = {
     giocatori: calciatori,
     partecipanti: [],
@@ -32,16 +30,26 @@ const astaState = {
 io.on('connection', (socket) => {
     console.log('Un utente si è connesso:', socket.id);
 
-    // Invia lo stato attuale al nuovo utente
     socket.emit('updateState', astaState);
 
+    // LOGICA DI JOIN MIGLIORATA
     socket.on('join', (nome) => {
-        if (!astaState.partecipanti.find(p => p.id === socket.id)) {
+        // Cerca se un utente con lo stesso nome è già presente (magari disconnesso)
+        let utenteEsistente = astaState.partecipanti.find(p => p.nome === nome);
+
+        if (utenteEsistente) {
+            // Se l'utente esiste, è una RICONNESSIONE. Aggiorniamo il suo socket ID.
+            utenteEsistente.id = socket.id; // Ri-associa il vecchio utente al nuovo socket
+            console.log(`${nome} si è riconnesso.`);
+        } else {
+            // Se non esiste, è un NUOVO UTENTE.
             const nuovoUtente = { id: socket.id, nome: nome, crediti: 500, rosa: [] };
             astaState.partecipanti.push(nuovoUtente);
             console.log(`${nome} si è unito all'asta.`);
-            io.emit('updateState', astaState); // Invia lo stato aggiornato a tutti
         }
+        
+        // Invia lo stato aggiornato a tutti
+        io.emit('updateState', astaState);
     });
 
     socket.on('bid', (offerta) => {
@@ -53,27 +61,36 @@ io.on('connection', (socket) => {
         }
     });
     
-    // Solo l'admin (il primo che si collega) può assegnare
     socket.on('assign', () => {
         const admin = astaState.partecipanti[0];
         if (admin && socket.id === admin.id && astaState.offertaCorrente > 0) {
             const vincitore = astaState.partecipanti.find(p => p.nome === astaState.offerenteCorrente);
-            const giocatoreVinto = astaState.giocatori[astaState.giocatoreCorrenteIndex];
-            
-            vincitore.crediti -= astaState.offertaCorrente;
-            vincitore.rosa.push(giocatoreVinto);
-            
-            astaState.giocatoreCorrenteIndex++;
-            astaState.offertaCorrente = 0;
-            astaState.offerenteCorrente = null;
-            
-            io.emit('updateState', astaState);
+            if(vincitore){
+                const giocatoreVinto = astaState.giocatori[astaState.giocatoreCorrenteIndex];
+                
+                vincitore.crediti -= astaState.offertaCorrente;
+                vincitore.rosa.push(giocatoreVinto);
+                
+                astaState.giocatoreCorrenteIndex++;
+                astaState.offertaCorrente = 0;
+                astaState.offerenteCorrente = null;
+                
+                io.emit('updateState', astaState);
+            }
+        }
+    });
+
+    socket.on('forceEnd', () => {
+        const admin = astaState.partecipanti[0];
+        if (admin && socket.id === admin.id) {
+            console.log(`Asta terminata forzatamente dall'admin: ${admin.nome}`);
+            io.emit('auctionEnded', astaState);
         }
     });
 
     socket.on('disconnect', () => {
         console.log('Un utente si è disconnesso:', socket.id);
-        // Opzionale: gestire la disconnessione degli utenti
+        // NON rimuoviamo l'utente dalla lista, così può riconnettersi
     });
 });
 
