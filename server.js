@@ -1,4 +1,4 @@
-// server.js (versione con gestione riconnessioni)
+// server.js (versione con skip giocatore)
 const express = require('express');
 const http = require('http');
 const socketIo = require('socket.io');
@@ -32,23 +32,16 @@ io.on('connection', (socket) => {
 
     socket.emit('updateState', astaState);
 
-    // LOGICA DI JOIN MIGLIORATA
     socket.on('join', (nome) => {
-        // Cerca se un utente con lo stesso nome è già presente (magari disconnesso)
         let utenteEsistente = astaState.partecipanti.find(p => p.nome === nome);
-
         if (utenteEsistente) {
-            // Se l'utente esiste, è una RICONNESSIONE. Aggiorniamo il suo socket ID.
-            utenteEsistente.id = socket.id; // Ri-associa il vecchio utente al nuovo socket
+            utenteEsistente.id = socket.id;
             console.log(`${nome} si è riconnesso.`);
         } else {
-            // Se non esiste, è un NUOVO UTENTE.
             const nuovoUtente = { id: socket.id, nome: nome, crediti: 500, rosa: [] };
             astaState.partecipanti.push(nuovoUtente);
             console.log(`${nome} si è unito all'asta.`);
         }
-        
-        // Invia lo stato aggiornato a tutti
         io.emit('updateState', astaState);
     });
 
@@ -67,16 +60,24 @@ io.on('connection', (socket) => {
             const vincitore = astaState.partecipanti.find(p => p.nome === astaState.offerenteCorrente);
             if(vincitore){
                 const giocatoreVinto = astaState.giocatori[astaState.giocatoreCorrenteIndex];
-                
                 vincitore.crediti -= astaState.offertaCorrente;
                 vincitore.rosa.push(giocatoreVinto);
-                
                 astaState.giocatoreCorrenteIndex++;
                 astaState.offertaCorrente = 0;
                 astaState.offerenteCorrente = null;
-                
                 io.emit('updateState', astaState);
             }
+        }
+    });
+
+    // NUOVA FUNZIONALITÀ: Salta il giocatore corrente
+    socket.on('skipPlayer', () => {
+        const admin = astaState.partecipanti[0];
+        // Controlla che sia l'admin e che non ci siano offerte
+        if (admin && socket.id === admin.id && astaState.offertaCorrente === 0) {
+            console.log(`Giocatore saltato dall'admin: ${admin.nome}`);
+            astaState.giocatoreCorrenteIndex++; // Passa al prossimo giocatore
+            io.emit('updateState', astaState); // Invia lo stato aggiornato a tutti
         }
     });
 
@@ -90,7 +91,6 @@ io.on('connection', (socket) => {
 
     socket.on('disconnect', () => {
         console.log('Un utente si è disconnesso:', socket.id);
-        // NON rimuoviamo l'utente dalla lista, così può riconnettersi
     });
 });
 
