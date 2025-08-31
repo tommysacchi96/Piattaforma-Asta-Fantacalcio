@@ -1,4 +1,4 @@
-// app.js (versione corretta con gestione refresh e rosa suddivisa)
+// app.js (versione con pulsante "Non Assegnato")
 const socket = io();
 
 // Elementi del Login
@@ -14,6 +14,7 @@ const ultimoOfferenteEl = document.getElementById('ultimo-offerente');
 const inputOffertaEl = document.getElementById('input-offerta');
 const btnOffertaEl = document.getElementById('btn-offerta');
 const btnAssegnaEl = document.getElementById('btn-assegna');
+const btnSkipEl = document.getElementById('btn-skip'); // NUOVO
 const creditiRimastiEl = document.getElementById('crediti-rimasti');
 const tabellaLegaBodyEl = document.querySelector('#tabella-lega tbody');
 const nomeUtenteEl = document.getElementById('nome-utente');
@@ -21,11 +22,12 @@ const rosaPortieriEl = document.getElementById('rosa-portieri');
 const rosaDifensoriEl = document.getElementById('rosa-difensori');
 const rosaCentrocampistiEl = document.getElementById('rosa-centrocampisti');
 const rosaAttaccantiEl = document.getElementById('rosa-attaccanti');
+// Rimuoviamo il riferimento al pulsante "Termina Asta" che non usiamo
+// const btnEndAuction = document.getElementById('btn-end-auction'); 
 
 let mioNome = '';
 let sonoAdmin = false;
 
-// Controlla se il nome è già salvato nel browser al caricamento della pagina
 window.addEventListener('load', () => {
     const nomeSalvato = sessionStorage.getItem('nomeUtenteAsta');
     if (nomeSalvato) {
@@ -36,12 +38,10 @@ window.addEventListener('load', () => {
     }
 });
 
-// -- GESTIONE LOGIN --
 btnJoin.addEventListener('click', () => {
     const nome = inputNome.value.trim();
     if (nome) {
         mioNome = nome;
-        // Salva il nome nella memoria del browser (per la sessione corrente)
         sessionStorage.setItem('nomeUtenteAsta', nome);
         nomeUtenteEl.textContent = mioNome;
         socket.emit('join', nome);
@@ -49,7 +49,6 @@ btnJoin.addEventListener('click', () => {
     }
 });
 
-// -- INVIO EVENTI AL SERVER --
 btnOffertaEl.addEventListener('click', () => {
     const offerta = parseInt(inputOffertaEl.value);
     if (!isNaN(offerta) && offerta > 0) {
@@ -66,9 +65,16 @@ btnAssegnaEl.addEventListener('click', () => {
     }
 });
 
-// -- RICEZIONE EVENTI DAL SERVER --
+// NUOVO: Event listener per il pulsante "Non Assegnato"
+btnSkipEl.addEventListener('click', () => {
+    if (sonoAdmin) {
+        socket.emit('skipPlayer');
+    } else {
+        alert("Solo l'amministratore può saltare un giocatore.");
+    }
+});
+
 socket.on('updateState', (state) => {
-    // Aggiorna info giocatore
     if (state.giocatoreCorrenteIndex < state.giocatori.length) {
         const giocatore = state.giocatori[state.giocatoreCorrenteIndex];
         nomeGiocatoreEl.textContent = `${giocatore.nome} (${giocatore.ruolo})`;
@@ -76,17 +82,15 @@ socket.on('updateState', (state) => {
     } else {
         nomeGiocatoreEl.textContent = "ASTA FINITA";
         squadraGiocatoreEl.textContent = "";
-        // Disabilita i pulsanti a fine asta
         btnOffertaEl.disabled = true;
         btnAssegnaEl.disabled = true;
+        btnSkipEl.disabled = true; // NUOVO
         inputOffertaEl.disabled = true;
     }
     
-    // Aggiorna info asta
     valoreOffertaEl.textContent = state.offertaCorrente;
     ultimoOfferenteEl.textContent = state.offerenteCorrente || '-';
 
-    // Aggiorna tabella lega
     tabellaLegaBodyEl.innerHTML = '';
     state.partecipanti.forEach((p, index) => {
         const riga = document.createElement('tr');
@@ -95,7 +99,6 @@ socket.on('updateState', (state) => {
         tabellaLegaBodyEl.appendChild(riga);
     });
 
-    // Aggiorna dati personali e la rosa suddivisa
     const mioAccount = state.partecipanti.find(p => p.nome === mioNome);
     if (mioAccount) {
         creditiRimastiEl.textContent = mioAccount.crediti;
@@ -108,36 +111,31 @@ socket.on('updateState', (state) => {
         mioAccount.rosa.forEach(g => {
             const li = document.createElement('li');
             li.textContent = `${g.nome} (${g.squadra})`;
-            
-            if (g.ruolo === 'P') {
-                rosaPortieriEl.appendChild(li);
-            } else if (g.ruolo === 'D') {
-                rosaDifensoriEl.appendChild(li);
-            } else if (g.ruolo === 'C') {
-                rosaCentrocampistiEl.appendChild(li);
-            } else if (g.ruolo === 'A') {
-                rosaAttaccantiEl.appendChild(li);
-            }
+            if (g.ruolo === 'P') { rosaPortieriEl.appendChild(li); } 
+            else if (g.ruolo === 'D') { rosaDifensoriEl.appendChild(li); } 
+            else if (g.ruolo === 'C') { rosaCentrocampistiEl.appendChild(li); } 
+            else if (g.ruolo === 'A') { rosaAttaccantiEl.appendChild(li); }
         });
         
-        // Controlla se sono l'admin
         const admin = state.partecipanti[0];
         if (admin && admin.id === mioAccount.id) {
             sonoAdmin = true;
             btnAssegnaEl.style.display = 'inline-block';
+            btnSkipEl.style.display = 'inline-block'; // NUOVO
         } else {
             sonoAdmin = false;
             btnAssegnaEl.style.display = 'none';
+            btnSkipEl.style.display = 'none'; // NUOVO
         }
     }
 });
 
-// Gestione dell'evento di fine asta (se mai lo riaggiungerai)
 socket.on('auctionEnded', () => {
     alert("L'asta è stata terminata dall'amministratore!");
     nomeGiocatoreEl.textContent = "ASTA TERMINATA";
     squadraGiocatoreEl.textContent = "L'amministratore ha chiuso la sessione.";
     btnOffertaEl.disabled = true;
     btnAssegnaEl.disabled = true;
+    btnSkipEl.disabled = true; // NUOVO
     inputOffertaEl.disabled = true;
 });
