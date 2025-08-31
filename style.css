@@ -257,3 +257,20 @@ section h2 {
         flex-basis: 40%;
     }
 }
+
+/* Stile per il pulsante Non Assegnato */
+#btn-skip {
+    padding: 10px 15px;
+    font-size: 0.9em;
+    font-weight: bold;
+    border: 1px solid var(--bordo);
+    border-radius: 5px;
+    background-color: var(--testo-secondario);
+    color: var(--sfondo-principale);
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#btn-skip:hover {
+    background-color: #b0b8c0;
+}
